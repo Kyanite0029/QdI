@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="idontknow_gift_name">모르겠네요...</text>
+<text id="idontknow_gift_desc">이걸 보고있다면 아마 그...꽤 많은 오류가 있는 거에요.
+글쎄요, 당신이 개발자나 테스터가 아닌 이상...
+뭐 치트를 써서 가져오거나 그런 게 아니라면 부디 디스코드 ID spgmld(모드 개발자의 개인 연락처)로 연락 부탁드리겠습니다.
+
+체력 + 30 정신력 + 30  이동 속도 + 30 작업 속도  +30 공격 속도 + 30
+</text>
+</localize>
