@@ -42,16 +42,14 @@
   <equipment id="434281" type="special">
     <name>ScribbledLife_gift_name</name> 
     <desc>ScribbledLife_gift_desc</desc> 
-    <attachPos>ribborn</attachPos> 
+    <attachPos>body_up</attachPos> 
     <attachType>add</attachType> 
     <bonus>
-      <hp>-40</hp>
-      <mental>15</mental>
+      <mental>12</mental>
       <workProb>2</workProb>
       <cubeSpeed>2</cubeSpeed>
-      <movement>8</movement>
       <attackSpeed>8</attackSpeed>
     </bonus>
-    <sprite>163790</sprite>
+    <sprite>434281</sprite>
   </equipment>
 </equipment_list>
