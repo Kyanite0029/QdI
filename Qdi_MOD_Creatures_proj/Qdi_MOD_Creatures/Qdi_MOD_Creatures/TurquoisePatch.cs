@@ -24,55 +24,55 @@ namespace Qdi_MOD_Creatures
             try
             {
                 //T속성을 정상인식하게 패치
-                MethodInfo method = typeof(Harmony_Patch).GetMethod("EquipmentDataLoader_ConvertToRWBP");
+                MethodInfo method = typeof(TurquoisePatch).GetMethod("EquipmentDataLoader_ConvertToRWBP");
                 harmonyInstance.Patch(typeof(EquipmentDataLoader).GetMethod("ConvertToRWBP", AccessTools.all), new HarmonyMethod(method), null, null); 
                 //
-                method = typeof(Harmony_Patch).GetMethod("UIComponent_SetData");
+                method = typeof(TurquoisePatch).GetMethod("UIComponent_SetData");
                 harmonyInstance.Patch(typeof(AgentInfoWindow.UIComponent).GetMethod("SetData", AccessTools.all, null, new Type[]
                 {
                     typeof(AgentModel)
                 }, null), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("InventoryAgentController_SetUI");
+                method = typeof(TurquoisePatch).GetMethod("InventoryAgentController_SetUI");
                 harmonyInstance.Patch(typeof(InventoryAgentController).GetMethod("SetUI", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("InventoryWeaponSlot_SetWeapon");
+                method = typeof(TurquoisePatch).GetMethod("InventoryWeaponSlot_SetWeapon");
                 harmonyInstance.Patch(typeof(InventoryWeaponSlot).GetMethod("SetWeapon", AccessTools.all), new HarmonyMethod(method), null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("AgentEquipmentSlot_SetData");
+                method = typeof(TurquoisePatch).GetMethod("AgentEquipmentSlot_SetData");
                 harmonyInstance.Patch(typeof(AgentEquipmentSlot).GetMethod("SetData", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("InGameModeComponent_SetUI");
+                method = typeof(TurquoisePatch).GetMethod("InGameModeComponent_SetUI");
                     harmonyInstance.Patch(typeof(AgentInfoWindow.InGameModeComponent).GetMethod("SetUI", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("WeaponSlot_SetModel");
+                method = typeof(TurquoisePatch).GetMethod("WeaponSlot_SetModel");
                 harmonyInstance.Patch(typeof(WeaponSlot).GetMethod("SetModel", AccessTools.all, null, new Type[]
                      {
                     typeof(EquipmentTypeInfo)
                      }, null), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("InventoryWeaponSlot_UpdateUI");
+                method = typeof(TurquoisePatch).GetMethod("InventoryWeaponSlot_UpdateUI");
                 harmonyInstance.Patch(typeof(InventoryWeaponSlot).GetMethod("UpdateUI", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("CreatureModel_TakeDamage");
+                method = typeof(TurquoisePatch).GetMethod("CreatureModel_TakeDamage");
                 harmonyInstance.Patch(typeof(CreatureModel).GetMethod("TakeDamage", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("WorkerModel_TakeDamage");
+                method = typeof(TurquoisePatch).GetMethod("WorkerModel_TakeDamage");
                 harmonyInstance.Patch(typeof(WorkerModel).GetMethod("TakeDamage", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("RabbitModel_TakeDamage");
+                method = typeof(TurquoisePatch).GetMethod("RabbitModel_TakeDamage");
                 harmonyInstance.Patch(typeof(RabbitModel).GetMethod("TakeDamage", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("InventoryAgentController_SetUI");
+                method = typeof(TurquoisePatch).GetMethod("InventoryAgentController_SetUI");
                 harmonyInstance.Patch(typeof(InventoryAgentController).GetMethod("SetUI", AccessTools.all), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("WorkerSuppressRegion_SetData");
+                method = typeof(TurquoisePatch).GetMethod("WorkerSuppressRegion_SetData");
                 harmonyInstance.Patch(typeof(WorkerSuppressRegion).GetMethod("SetData", AccessTools.all, null, new Type[]
                 {
             typeof(WorkerModel)
                 }, null), new HarmonyMethod(method), null, null);
                 //
-                method = typeof(Harmony_Patch).GetMethod("UnitModel_MakeDamageEffect");
+                method = typeof(TurquoisePatch).GetMethod("UnitModel_MakeDamageEffect");
                 harmonyInstance.Patch(typeof(UnitModel).GetMethod("MakeDamageEffect", AccessTools.all), new HarmonyMethod(method), null, null);
 
                 LobotomyBaseMod.ModDebug.Log("QDI.Turquoise Loaded");

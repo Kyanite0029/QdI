@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|c:\\qdi\\qdi_mod_creatures_proj\\qdi_mod_creatures\\qdi_mod_creatures\\harmony_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|solutionrelative:qdi_mod_creatures\\harmony_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|c:\\qdi\\qdi_mod_creatures_proj\\qdi_mod_creatures\\qdi_mod_creatures\\turquoisepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|solutionrelative:qdi_mod_creatures\\turquoisepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\qdi_mod_creatures\\turquoisedebuf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\qdi_mod_creatures\\jormungandrweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|solutionrelative:qdi_mod_creatures\\jormungandrweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|c:\\qdi\\qdi_mod_creatures_proj\\qdi_mod_creatures\\qdi_mod_creatures\\harmony_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|solutionrelative:qdi_mod_creatures\\harmony_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61A6196F-073D-4534-B92A-4F3A21A88A34}|Qdi_MOD_Creatures\\Qdi_MOD_Creatures.csproj|C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\qdi_mod_creatures\\scribbledlifeanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TurquoisePatch.cs",
+              "DocumentMoniker": "C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\QDI_Mod_Creatures\\TurquoisePatch.cs",
+              "RelativeDocumentMoniker": "QDI_Mod_Creatures\\TurquoisePatch.cs",
+              "ToolTip": "C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\QDI_Mod_Creatures\\TurquoisePatch.cs",
+              "RelativeToolTip": "QDI_Mod_Creatures\\TurquoisePatch.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwEoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T11:02:19.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Harmony_Patch.cs",
               "DocumentMoniker": "C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\QDI_Mod_Creatures\\Harmony_Patch.cs",
               "RelativeDocumentMoniker": "QDI_Mod_Creatures\\Harmony_Patch.cs",
@@ -61,9 +78,10 @@
               "RelativeDocumentMoniker": "Qdi_MOD_Creatures\\TurquoiseDebuf.cs",
               "ToolTip": "C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\Qdi_MOD_Creatures\\TurquoiseDebuf.cs",
               "RelativeToolTip": "Qdi_MOD_Creatures\\TurquoiseDebuf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T00:55:46.422Z"
+              "WhenOpened": "2024-08-04T00:55:46.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,11 +93,12 @@
               "RelativeToolTip": "Qdi_MOD_Creatures\\JormungandrWeapon.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T00:22:23.955Z"
+              "WhenOpened": "2024-08-04T00:22:23.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ScribbledLifeAnim.cs",
               "DocumentMoniker": "C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\Qdi_MOD_Creatures\\ScribbledLifeAnim.cs",
               "RelativeDocumentMoniker": "Qdi_MOD_Creatures\\ScribbledLifeAnim.cs",
@@ -91,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ScribbledLife.cs",
               "DocumentMoniker": "C:\\QdI\\Qdi_MOD_Creatures_proj\\Qdi_MOD_Creatures\\Qdi_MOD_Creatures\\ScribbledLife.cs",
               "RelativeDocumentMoniker": "Qdi_MOD_Creatures\\ScribbledLife.cs",
