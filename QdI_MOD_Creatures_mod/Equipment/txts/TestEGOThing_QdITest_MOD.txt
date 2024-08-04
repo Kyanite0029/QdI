@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="888284" type="weapon">
+    <name>TestEGOThing_weapon_name</name>
+    <desc>TestEGOThing_weapon_desc</desc>
+    <specialDesc>TestEGOThing_weapon_specialDesc</specialDesc>
+    <weaponClassType>mace</weaponClassType>
+
+    <sprite>888284</sprite>
+
+    <require type="level">4</require>
+    <require type="R">3</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+    <animation>Attack1</animation>
+    <damage type="P" min="8" max="18">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+ 
+    <damage type="B" min="14 " max="27">
+    </damage>
+    <range>12</range>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+</equipment_list>
