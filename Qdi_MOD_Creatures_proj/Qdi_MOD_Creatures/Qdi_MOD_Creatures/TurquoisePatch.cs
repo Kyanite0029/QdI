@@ -23,6 +23,8 @@ namespace Qdi_MOD_Creatures
         {
             try
             {
+                TurquoisePatch.path = Path.GetDirectoryName(Uri.UnescapeDataString(new UriBuilder(Assembly.GetExecutingAssembly().CodeBase).Path));
+                TurquoisePatch.MakeDamageIcon();
                 //T속성을 정상인식하게 패치
                 MethodInfo method = typeof(TurquoisePatch).GetMethod("EquipmentDataLoader_ConvertToRWBP");
                 harmonyInstance.Patch(typeof(EquipmentDataLoader).GetMethod("ConvertToRWBP", AccessTools.all), new HarmonyMethod(method), null, null); 

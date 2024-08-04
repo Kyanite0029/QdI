@@ -17,14 +17,14 @@ using static UnityEngine.Experimental.Rendering.RenderPass;
 
 namespace Qdi_MOD_Creatures
 {
-    [HarmonyPatch(typeof(InventorySlot), ("get_info"))]
     public class Harmony_Patch
     {
         public Harmony_Patch()
         {
             try
             {
-                
+
+
                 HarmonyInstance harmonyInstance = HarmonyInstance.Create("Lobotomy.QDI.QDI");
                 TurquoisePatch.Patch(harmonyInstance);
             }
