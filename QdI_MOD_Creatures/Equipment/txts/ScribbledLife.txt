@@ -39,7 +39,7 @@
     <attackSpeed>4</attackSpeed>
     <grade>4</grade>
   </equipment>
-  <equipment id="434281" type="special">
+<!--  <equipment id="434281" type="special">
     <name>ScribbledLife_gift_name</name> 
     <desc>ScribbledLife_gift_desc</desc> 
     <attachPos>body_up</attachPos> 
@@ -49,6 +49,22 @@
       <workProb>2</workProb>
       <cubeSpeed>2</cubeSpeed>
       <attackSpeed>8</attackSpeed>
+    </bonus>
+    <sprite>434281</sprite>
+  </equipment>-->
+
+  <equipment id="434281" type="special">
+    <name>ScribbledLife_gift_name</name> 
+    <desc>ScribbledLife_gift_desc</desc> 
+    <attachPos>ribborn</attachPos> 
+    <attachType>add</attachType> 
+    <bonus>
+      <hp>-15</hp>
+      <mental>15</mental>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+      <movement>4</movement>
+      <attackSpeed>4</attackSpeed>
     </bonus>
     <sprite>434281</sprite>
   </equipment>
