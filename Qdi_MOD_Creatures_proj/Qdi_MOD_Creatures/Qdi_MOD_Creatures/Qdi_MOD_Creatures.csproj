@@ -209,6 +209,7 @@
     <Compile Include="ScribbledLife.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TurquoiseDebuf.cs" />
+    <Compile Include="TurquoisePatch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,7 +10,7 @@
     <require type="W">3</require>
     <animation>Attack1</animation>
 
-    <damage type="P" min="10" max="20">
+    <damage type="T" min="10" max="20">
       <soundInfo type="damage">Weapons/bowgun</soundInfo>
     </damage>
     <range>20</range>
