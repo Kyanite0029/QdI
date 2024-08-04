@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<localize>
-<text id="TestEGOThing_weapon_name">존재</text>
-<text id="TestEGOThing_weapon_desc">점등. 별의 강. 진주의 눈물. 무화과. 인간 존재의 덧없고 위태로운 본질.
-
-어느 순간 당신 또한 존재를 잊으리라.</text>
-<text id="TestEGOThing_weapon_specialDesc">PALE, BLACK 데미지를 번갈아가며 공격.
-테스트용 EGO 장비입니다. 통상적으로 얻을 수 있는 장비가 아닙니다.</text>
-</localize>
