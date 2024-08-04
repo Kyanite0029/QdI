@@ -48,9 +48,8 @@
       <codeNo openLevel="0">T-04-333</codeNo>
       <portrait openLevel="1">Custom/Broken_Dream</portrait>
 
-	  <name openLevel="1">액자</name>
+	  <name openLevel="1">그림 액자</name>
       <name openLevel="3">깨어진 꿈</name>
-	  <name openLevel="4">《무너져내린 완벽과 깨어진 꿈에 대하여》</name>
       
       <riskLevel openLevel="1">WAW</riskLevel>
 	  
@@ -60,7 +59,7 @@
 	<desc id="1" openLevel="0">
 	  [
 	  {(이것은 이 환상체가 발견될 당시 함께 발견된 책에 적힌 일련의 내용이다.)
-작품명:《무너져내린 완벽과 깨어진 꿈에 대하여.》
+작품명:《깨어진 꿈》
 ...
 나는 예술가다. 이따금씩 글을 쓰고, 그림을 그리며, 세상을 노래한다.
 나는 완벽을 갈망한다. 
@@ -151,18 +150,13 @@
     </desc>
 
     <specialTipSize size="4">
-      <specialTip openLevel="1" key="1">작업 결과가 나쁨일 경우 매우 높은 확률로 클리포트 카운터가 감소했다.</specialTip>
-      <specialTip openLevel="2" key="2">작업 결과가 보통일 경우 보통 확률로 클리포트 카운터가 감소했다.</specialTip>
-      <specialTip openLevel="3" key="3">통찰 작업이 감상 작업으로 대체되었다. 감상 작업의 결과가 좋음일 경우 직원에게 일정량의 P 피해를 가하는 것으로 클리포트 카운터를 회복했다.</specialTip>
-      <specialTip openLevel="4" key="4">감상 작업의 결과가 좋음 이외일 경우 즉시 클리포트 카운터가 0이 되었다.</specialTip>
-      <specialTip openLevel="5" key="5">"$0"가 탈출할 경우, 각 부서의 로비 또는 복도에 하나씩 "실패작"들을 생성했다. "실패작"들은 떠다니며 마주치는 주위 개체에게 B 피해를 강했다.</specialTip>
-      <specialTip openLevel="6" key="6">탈출한 "$0"는 이 환상체가 존재하는 부서의 로비에 고정된 상태로 나타났다. "$0"는 자신이 존재하는 방에 존재하는 모든 직원들에게 지속적으로 P 피해를 주었다.</specialTip>
-      <specialTip openLevel="7" key="7">시설에 존재하는 모든 "실패작"을 제압하지 않을 경우 탈출한 "$0"는 모든 피해를 받지 않았다.</specialTip>
+      <specialTip openLevel="1" key="1">작업 결과가 나쁨일 경우 클리포트 카운터가 감소했다.</specialTip>
+      <specialTip openLevel="2" key="2">작업 결과가 보통일 경우 낮은 확률로 클리포트 카운터가 감소했다.</specialTip>
+      <specialTip openLevel="3" key="3">애착 작업을 진행하자 클리포트 카운터가 0이 되었다.</specialTip>
+      <specialTip openLevel="4" key="4">통찰 작업의 결과가 좋음일 경우 직원에게 일정량의 P 피해를 가하는 것으로 클리포트 카운터를 회복했다.</specialTip>
+      <specialTip openLevel="5" key="5">통찰 작업의 결과가 좋음 이외일 경우 즉시 클리포트 카운터가 0이 되었다.</specialTip>
+      <specialTip openLevel="6" key="6">$0에게 통찰 작업을 3번 연속으로 진행하자 즉시 탈출하였다.</specialTip>
+      <specialTip openLevel="7" key="7">탈출한 $0는 주변을 배회하며 지속적으로 주변 개체를 무차별적으로 공격하며 강한 B와 P 피해를 주었다.</specialTip>
     </specialTipSize>
   </observe>
-
-  <child>
-    <name>실패작</name>
-    <codeId>T-04-333-01</codeId>
-  </child>
 </creature>

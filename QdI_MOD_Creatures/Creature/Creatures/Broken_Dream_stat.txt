@@ -22,8 +22,8 @@
       <prob level="1">0.4</prob>
       <prob level="2">0.45</prob>
       <prob level="3">0.5</prob>
-      <prob level="4">0.55</prob>
-      <prob level="5">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.7</prob>
     </workProb>
     <workProb type="P">
       <prob level="1">0.0</prob>
@@ -39,8 +39,8 @@
       <cube>16</cube>
       <cube>24</cube>
     </feelingStateCubeBounds>
-    <workDamage type="P" min="4" max="8" />
-    <workSpeed>0.4</workSpeed>
+    <workDamage type="B" min="4" max="8" />
+    <workSpeed>0.5</workSpeed>
     <hp>1423</hp>
     <speed>4</speed>
     <observeInfo total="88">
@@ -63,17 +63,11 @@
     <observeBonus level="3" type="speed">4</observeBonus>
     <observeBonus level="4" type="prob">4</observeBonus>
     
-    <equipment level="4" cost="220" equipId="232485" />
-    <equipment level="4" cost="140" equipId="332485" />
+    <equipment level="4" cost="120" equipId="232485" />
+    <equipment level="4" cost="80" equipId="332485" />
     <equipment level="4" prob="0.01" equipId="432485" />
      <escapeable>true</escapeable>
     <defense id="1">
-      <defenseElement type="R">0.0</defenseElement>
-      <defenseElement type="W">0.0</defenseElement>
-      <defenseElement type="B">0.0</defenseElement>
-      <defenseElement type="P">0.0</defenseElement>
-    </defense>
-    <defense id="2">
       <defenseElement type="R">0.8</defenseElement>
       <defenseElement type="W">1.4</defenseElement>
       <defenseElement type="B">1.8</defenseElement>
@@ -101,6 +95,4 @@
   <sound action="special" src="creature/AuthorNote/NoteBook_Start" />
   <sound action="fin" src="creature/AuthorNote/NoteBook_Finish" />
   <sound action="attack" src="creature/DangoCreature/Danggo_Lv3_Atk" />
-
-  <child>Failedwork_stat</child>
 </creature>
