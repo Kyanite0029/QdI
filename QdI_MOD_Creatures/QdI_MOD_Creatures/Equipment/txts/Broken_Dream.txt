@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+    <equipment id="332485" type="armor">
+    <name>Broken_Dream_armor_name</name>
+    <desc>Broken_Dream_armor_desc</desc>
+    <specialDesc>Broken_Dream_armor_special</specialDesc>
+
+    <armorId>332485</armorId>
+	
+    <require type="B">4</require>
+    <require type="P">5</require>
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">0.3</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <script>Broken_Dream_armor</script>
+    <maxNum>1</maxNum>
+  </equipment>
+  <equipment id="232485" type="weapon">
+    <name>Broken_Dream_weapon_name</name>
+    <no>Broken_Dream_weapon_no</no>
+    <desc>Broken_Dream_weapon_desc</desc>
+    <specialDesc>Broken_Dream_weapon_sdesc</specialDesc>
+
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_Broken_Dream</specialWeaponAnim>
+    <sprite>DangoCreature_Broken_Dream</sprite>
+
+    <animation>Attack_01</animation>
+    <animation>Attack_02</animation>
+
+    <damage type="W" min="3" max="5">
+    </damage>
+    <damage type="W" min="5" max="8">
+    </damage>
+    <damage type="W" min="7" max="13">
+    </damage>
+    <damage type="W" min="4" max="7">
+    </damage>
+    <range>15</range>
+
+    <script>Broken_Dream_weapon</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>1</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+  <equipment id="432485" type="special"> 
+    <name>Broken_Dream_gift_name</name>
+    <desc>Broken_Dream_gift_desc</desc> 
+    <attachPos>head</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <mental>15</mental>
+    </bonus>
+    <sprite>Broken_DreamGift</sprite>
+    <script>Broken_DreamGift</script>	  
+  </equipment>
+
+</equipment_list>
