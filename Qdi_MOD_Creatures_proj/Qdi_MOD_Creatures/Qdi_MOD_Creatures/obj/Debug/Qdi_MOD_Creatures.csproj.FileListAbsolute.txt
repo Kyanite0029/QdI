@@ -384,3 +384,7 @@ C:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_
 C:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_MOD_.8893B8D6.Up2Date
 C:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_MOD_Creatures.dll
 C:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_MOD_Creatures.pdb
+F:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_MOD_Creatures.csproj.AssemblyReference.cache
+F:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_MOD_Creatures.csproj.CoreCompileInputs.cache
+F:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_MOD_Creatures.dll
+F:\QdI\Qdi_MOD_Creatures_proj\Qdi_MOD_Creatures\Qdi_MOD_Creatures\obj\Debug\Qdi_MOD_Creatures.pdb

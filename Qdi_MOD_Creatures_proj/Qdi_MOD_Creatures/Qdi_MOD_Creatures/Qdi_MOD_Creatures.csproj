@@ -203,6 +203,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Duck.cs" />
+    <Compile Include="DuckAnim.cs" />
     <Compile Include="Harmony_Patch.cs" />
     <Compile Include="JormungandrWeapon.cs" />
     <Compile Include="ScribbledLifeAnim.cs" />
