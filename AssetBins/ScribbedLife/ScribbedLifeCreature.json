@@ -1,4 +1,4 @@
-{ "skeleton": { "images": "F:/Lobotomy_QdI_MOD/DEV/AssetBins/images/ScribbedLife/" },
+{ "skeleton": { "images": "./images/" },
 "PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
 "bones": [
 	{ "name": "root" }
