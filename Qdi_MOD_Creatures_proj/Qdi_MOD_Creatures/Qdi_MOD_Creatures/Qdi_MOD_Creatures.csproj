@@ -207,6 +207,7 @@
     <Compile Include="DuckAnim.cs" />
     <Compile Include="Harmony_Patch.cs" />
     <Compile Include="JormungandrWeapon.cs" />
+    <Compile Include="Naglfar.cs" />
     <Compile Include="ScribbledLifeAnim.cs" />
     <Compile Include="ScribbledLife.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
