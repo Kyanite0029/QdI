@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="270301" type="armor">
+    <name>Wendigo_armor_name</name>
+    <desc>Wendigo_armor_desc</desc>
+    <specialDesc>Wendigo_armor_specialDesc</specialDesc>
+
+    <armorId>34</armorId>
+
+    <require type="W">4</require>
+    <require type="B">4</require>
+    
+    <defense>
+      <defenseElement type="R">0.9</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">0.9</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+    <script>WendigoArmor</script>
+
+  </equipment>
+
+</equipment_list>

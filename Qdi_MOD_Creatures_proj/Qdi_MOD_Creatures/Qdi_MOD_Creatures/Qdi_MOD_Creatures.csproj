@@ -213,6 +213,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TurquoiseDebuf.cs" />
     <Compile Include="TurquoisePatch.cs" />
+    <Compile Include="WendigoArmor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
