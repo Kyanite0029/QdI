@@ -22,6 +22,7 @@ namespace Qdi_MOD_Creatures
             {
                 agentModel2.AddUnitBuf(new JackBuf());
             }
+            this.qccd = 0f;
 
         }
 
@@ -32,9 +33,33 @@ namespace Qdi_MOD_Creatures
             {
                 this.model.SubQliphothCounter();
             }
+            else if (this.model.feelingState == CreatureFeelingState.GOOD)
+            {
+                this.model.AddQliphothCounter();
+            }
+        }
+
+        public override void OnFixedUpdate(CreatureModel creature)
+        {
+            base.OnFixedUpdate(creature);
+            qccd += Time.deltaTime;
+
+        }
+
+        private void QliSub()
+        {
+
+            if (this.qccd > 30f)
+            {
+                this.model.SubQliphothCounter();
+                this.qccd = 0f;
+            }
+            
         }
 
         private bool breached;
+
+        private float qccd;
 
         private class JackBuf : UnitBuf
         {
@@ -81,7 +106,7 @@ namespace Qdi_MOD_Creatures
                     {
                         Debug.LogError(e);
                     }
-                    bool flag3 = this.lonely > 100f;
+                    bool flag3 = this.lonely > 200f;
                     if (flag3)
                     {
                         bool breached = this.abno.breached;
@@ -95,7 +120,7 @@ namespace Qdi_MOD_Creatures
                             bool flag4 = (model is AgentModel);
                             if (flag4)
                             {
-                                this.abno.model.SubQliphothCounter();
+                                this.abno.QliSub();
                             }
                         }
                     }
