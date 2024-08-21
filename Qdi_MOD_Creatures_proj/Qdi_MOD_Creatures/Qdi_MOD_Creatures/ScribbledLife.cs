@@ -122,6 +122,7 @@ namespace Qdi_MOD_Creatures
         public override void OnReleaseWork(UseSkill skill)
         {
             base.OnReleaseWork(skill);
+            //좋음이 떴는가?
             if (this.model.feelingState == CreatureFeelingState.GOOD)
             {
                 if (!skill.agent.IsPanic() && !skill.agent.IsDead())
@@ -130,6 +131,7 @@ namespace Qdi_MOD_Creatures
                     {
                         this.workedAgents.Add(skill.agent.name);
                     }
+                    //좋음을 4번 이상 띄우면 즉사 트리거
                     if (this.goodCounter >= 3)
                     {
                         this.workedAgents.Remove(skill.agent.name);
@@ -144,12 +146,15 @@ namespace Qdi_MOD_Creatures
                     this.ActiveSkill(skill.agent.GetCurrentSefira());
                 }
             }
-            else if (this.model.feelingState != CreatureFeelingState.GOOD)
+            //좋음을 못 띄울때
+            else
             {
+                //나쁨을 띄운건가?
                 if (this.model.feelingState == CreatureFeelingState.BAD)
                 {
                     this.SubQliphothCounter();
                 }
+                //좋음 연속 깨뜨리기
                 this.goodCounter = 0;
             }
         }

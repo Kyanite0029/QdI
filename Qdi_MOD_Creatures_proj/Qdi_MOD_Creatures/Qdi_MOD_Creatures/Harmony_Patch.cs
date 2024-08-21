@@ -24,8 +24,9 @@ namespace Qdi_MOD_Creatures
             try
             {
 
-
+                //하모니 인스턴스 Lobotomy.QDI.QDI
                 HarmonyInstance harmonyInstance = HarmonyInstance.Create("Lobotomy.QDI.QDI");
+                //T데미지 적용
                 TurquoisePatch.Patch(harmonyInstance);
             }
             catch(Exception e)
