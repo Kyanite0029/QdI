@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Duck</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.7</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.95</prob>
+      <prob level="2">0.95</prob>
+      <prob level="3">0.95</prob>
+      <prob level="4">0.95</prob>
+      <prob level="5">0.95</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <qliphoth>0</qliphoth>
+    <workCooltime>6</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>4</cube>
+      <cube>9</cube>
+      <cube>15</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="0" max="2" />
+    <workSpeed>1.1</workSpeed>
+    <speed>1</speed>
+    <observeInfo total="48">
+      <observeElement name="stat" cost="15" />
+      <observeElement name="defense" cost="15" />
+      <observeElement name="work_r" cost="2" />
+      <observeElement name="work_w" cost="2" />
+      <observeElement name="work_b" cost="2" />
+      <observeElement name="work_p" cost="2" />
+      <observeElement name="care_0" cost="5" />
+      <observeElement name="care_1" cost="5" />
+      <observeElement name="care_2" cost="5" />
+      <observeElement name="care_3" cost="5" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">2</observeBonus>
+    <observeBonus level="2" type="prob">2</observeBonus>
+    <observeBonus level="3" type="speed">2</observeBonus>
+    <observeBonus level="4" type="prob">2</observeBonus>
+     <escapeable>false</escapeable>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.8" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/DuckAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+</creature>

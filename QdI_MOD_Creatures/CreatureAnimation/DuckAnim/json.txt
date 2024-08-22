@@ -1,0 +1,233 @@
+{
+"skeleton": {
+	"hash": "a9sMhnszD/s",
+	"spine": "3.8-from-4.0-from-4.1-from-4.2.35",
+	"x": 118,
+	"y": -2001,
+	"width": 1635,
+	"height": 1130.21,
+	"images": "./eh/OUTSIDE/IMAGES/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "duckbody", "parent": "root", "x": 900.69, "y": -1501.3 },
+	{ "name": "duckhead", "parent": "duckbody", "length": 219.9, "rotation": 80.45, "x": 260.27, "y": 217.8 },
+	{ "name": "pad2", "parent": "root", "x": 1136.63, "y": -1798.67 },
+	{ "name": "pad1", "parent": "root", "x": 382.7, "y": -1657.91 },
+	{ "name": "grass", "parent": "root", "length": 179.15, "rotation": 92.34, "x": 1390.99, "y": -1631.73 },
+	{ "name": "lilybeffr", "parent": "pad2", "x": 382.35, "y": -393.3 },
+	{ "name": "lilybeffr2", "parent": "lilybeffr", "x": -227.55, "y": 443.23 },
+	{ "name": "lilyseffr1", "parent": "pad1", "x": 88.32, "y": 42.22 },
+	{ "name": "lilybeffl2", "parent": "pad2", "x": -155.87, "y": -49.63 },
+	{ "name": "lilyseffl2", "parent": "pad1", "x": -74.27, "y": -37.31 }
+],
+"slots": [
+	{ "name": "bg", "bone": "root", "attachment": "bg" },
+	{ "name": "grass", "bone": "grass", "attachment": "grass" },
+	{ "name": "pad1", "bone": "pad1", "attachment": "pad1" },
+	{ "name": "pad2", "bone": "pad2", "attachment": "pad2" },
+	{ "name": "duckbody", "bone": "duckbody", "attachment": "duckbody" },
+	{ "name": "duckhead", "bone": "duckhead", "attachment": "duckhead" },
+	{ "name": "lilybeffl1", "bone": "lilybeffl2", "attachment": "lilybeffl1" },
+	{ "name": "lilybeffl2", "bone": "lilybeffl2", "attachment": "lilybeffl2" },
+	{ "name": "lilybeffr1", "bone": "lilybeffr2", "attachment": "lilybeffr1" },
+	{ "name": "lilybeffr2", "bone": "lilybeffr2", "attachment": "lilybeffr2" },
+	{ "name": "lilyseffl1", "bone": "lilyseffl2", "attachment": "lilyseffl1" },
+	{ "name": "lilyseffl2", "bone": "lilyseffl2", "attachment": "lilyseffl2" },
+	{ "name": "lilyseffr1", "bone": "lilyseffr1", "attachment": "lilyseffr1" },
+	{ "name": "lilyseffr2", "bone": "lilyseffr1", "attachment": "lilyseffr2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bg": {
+				"bg": { "x": 935.5, "y": -1484.5, "width": 1635, "height": 1033 }
+			},
+			"duckbody": {
+				"duckbody": { "x": -85.43, "y": 41.46, "width": 927, "height": 550 }
+			},
+			"duckhead": {
+				"duckhead": { "x": 206.71, "y": -121.37, "rotation": -80.45, "width": 425, "height": 458 }
+			},
+			"grass": {
+				"grass": { "x": 189.94, "y": 1.23, "rotation": -92.34, "width": 178, "height": 452 }
+			},
+			"lilybeffl1": {
+				"lilybeffl1": { "x": 12.07, "y": 0.42, "rotation": 0.07, "width": 8, "height": 36 }
+			},
+			"lilybeffl2": {
+				"lilybeffl2": { "x": -15.67, "y": -0.47, "rotation": 0.07, "width": 17, "height": 59 }
+			},
+			"lilybeffr1": {
+				"lilybeffr1": { "x": -9.32, "y": -5.32, "rotation": 0.07, "width": 23, "height": 51 }
+			},
+			"lilybeffr2": {
+				"lilybeffr2": { "x": 11.02, "y": 2.59, "rotation": 0.07, "width": 10, "height": 23 }
+			},
+			"lilyseffl1": {
+				"lilyseffl1": { "x": -5.81, "y": -21.82, "rotation": 0.07, "width": 16, "height": 18 }
+			},
+			"lilyseffl2": {
+				"lilyseffl2": { "x": 3.61, "y": 3.66, "rotation": 0.07, "width": 27, "height": 48 }
+			},
+			"lilyseffr1": {
+				"lilyseffr1": { "x": -11.32, "y": -6.63, "rotation": 0.07, "width": 25, "height": 31 }
+			},
+			"lilyseffr2": {
+				"lilyseffr2": { "x": 5.75, "y": 3.28, "rotation": 0.07, "width": 20, "height": 22 }
+			},
+			"pad1": {
+				"pad1": { "x": 3.3, "y": -0.59, "width": 146, "height": 103 }
+			},
+			"pad2": {
+				"pad2": { "x": -3.63, "y": 6.17, "width": 264, "height": 185 }
+			}
+		}
+	}
+],
+"animations": {
+	"default": {
+		"bones": {
+			"duckbody": {
+				"translate": [
+					{ "x": -18.23, "y": -74.72 },
+					{ "time": 2.3333 },
+					{ "time": 3.5, "x": 6.51, "y": -31.24 },
+					{ "time": 5, "x": -18.23, "y": -74.72 }
+				]
+			},
+			"duckhead": {
+				"rotate": [
+					{},
+					{ "time": 1.3333, "angle": 7.77 },
+					{ "time": 3, "angle": 17.48 },
+					{ "time": 4.1333, "angle": 7.77 },
+					{ "time": 5 }
+				]
+			},
+			"grass": {
+				"rotate": [
+					{},
+					{ "time": 1.0333, "angle": 2.07 },
+					{ "time": 1.9667 },
+					{ "time": 2.7333, "angle": 2.07 },
+					{ "time": 3.8, "angle": -6.55 },
+					{ "time": 5 }
+				],
+				"shear": [
+					{},
+					{ "time": 1.9667, "y": -7.57 },
+					{ "time": 5 }
+				]
+			},
+			"lilybeffr": {
+				"translate": [
+					{},
+					{ "time": 1.2 },
+					{ "time": 2.3667 },
+					{ "time": 5 }
+				]
+			},
+			"lilybeffr2": {
+				"translate": [
+					{},
+					{ "time": 1.2 },
+					{ "time": 2.3667 },
+					{ "time": 5 }
+				]
+			},
+			"pad1": {
+				"translate": [
+					{},
+					{ "time": 1.5, "x": 40.92, "y": -9.19 },
+					{ "time": 2.4667, "x": 54.11, "y": -0.82 },
+					{ "time": 3.2, "x": 96.68, "y": -28.84 },
+					{ "time": 4.1333, "x": 34.08, "y": 2.75 },
+					{ "time": 5 }
+				]
+			},
+			"pad2": {
+				"translate": [
+					{},
+					{ "time": 1.2, "x": 23.56, "y": 37.57 },
+					{ "time": 2.3667, "x": 52.68, "y": 36.04 },
+					{ "time": 5 }
+				]
+			}
+		}
+	},
+	"quack": {
+		"bones": {
+			"pad2": {
+				"translate": [
+					{},
+					{ "time": 1.2, "x": 23.56, "y": 37.57 },
+					{ "time": 2.3667, "x": 52.68, "y": 36.04 },
+					{ "time": 5 }
+				]
+			},
+			"pad1": {
+				"translate": [
+					{},
+					{ "time": 1.5, "x": 40.92, "y": -9.19 },
+					{ "time": 2.4667, "x": 54.11, "y": -0.82 },
+					{ "time": 3.2, "x": 96.68, "y": -28.84 },
+					{ "time": 4.1333, "x": 34.08, "y": 2.75 },
+					{ "time": 5 }
+				]
+			},
+			"grass": {
+				"rotate": [
+					{},
+					{ "time": 1.0333, "angle": 2.07 },
+					{ "time": 1.9667 },
+					{ "time": 2.7333, "angle": 2.07 },
+					{ "time": 3.8, "angle": -6.55 },
+					{ "time": 5 }
+				],
+				"shear": [
+					{},
+					{ "time": 1.9667, "y": -7.57 },
+					{ "time": 5 }
+				]
+			},
+			"duckbody": {
+				"translate": [
+					{ "x": -18.23, "y": -74.72 },
+					{ "time": 2.3333 },
+					{ "time": 3.5, "x": 6.51, "y": -31.24 },
+					{ "time": 5, "x": -18.23, "y": -74.72 }
+				]
+			},
+			"lilybeffr2": {
+				"translate": [
+					{},
+					{ "time": 1.2 },
+					{ "time": 2.3667 },
+					{ "time": 5 }
+				]
+			},
+			"lilybeffr": {
+				"translate": [
+					{},
+					{ "time": 1.2 },
+					{ "time": 2.3667 },
+					{ "time": 5 }
+				]
+			},
+			"duckhead": {
+				"rotate": [
+					{},
+					{ "time": 1.3333, "angle": 7.77 },
+					{ "time": 1.9667, "angle": 17.48 },
+					{ "time": 3.0333, "angle": -22.85 },
+					{ "time": 3.4, "angle": -16.65 },
+					{ "time": 5 }
+				]
+			}
+		}
+	}
+}
+}

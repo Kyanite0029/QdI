@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+ 
+  <info id="122297">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다. 
+    </narration>
+
+    <narration action="mid1">
+      [
+      {물소리가 찰랑거리고, 오리가 꽥꽥거립니다.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {이 작은 오리는 무해합니다.},
+	  {$0는 #0 직원에게 다가가 조용히 바라봅니다.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {잔잔한 물결이 기분좋게 흐릅니다.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {"꽥! 꽥! 꽤액? 꽥. 꽥! 꽤액!"},
+	  {역시 오리는 귀엽네요.}
+      ]
+    </narration>
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-02-297</codeNo>
+      <portrait openLevel="1">Custom/Duck</portrait>
+
+      <name openLevel="1">
+        물오리
+      </name>
+
+
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+
+      <openText>물소리가 찰랑거리고, 오리가 꽥꽥거립니다.</openText>
+
+    </collection>
+
+
+    <desc id="1" openLevel="0">
+      [
+      {조그마한 연못 위에 조용히 앉아 떠 있는 청동오리 형태의 환상체. 원래 격리실 안에 연못은 없었지만, 환상체가 너무 불쌍해보인다는 일부 직원들의 민원에 따라 설치되었다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {- 면담 기록 : B-XX-XX
+(...생략)
+상담사: 그래서 대체 그 오리를 왜 만지려 한 거죠?
+직원 ■■■:그야 녀석은 무해하고, 귀엽고, 조금 불쌍하기까지 해보이는걸요. 메뉴얼에서 본 무서운 녀석들과는 달라요. 조용하고, 가끔씩 저를 처다보는 정도 아니면 물 위에서 별 다른 행동도 하지 않아요. 말 그대로 무해하다니까요?
+상담사: ...그러나 규정상 허가 없는 환상체와의 자의적, 직접적 접촉은 불가능해요. 알고 계시지 않았나요?
+직원 ■■■: ...아무래도 세피라님께 규정에 대한 예외 조항 추가를 건의해봐야겠어요. 회사의 이익을 위해서요.
+상담사: (한숨)
+- 기록 종료 -}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {위 면담 이후 건의된 안건이 통과됨에 따라 이후 통찰 및 애착 작업 종료시에 짧은 시간동안만 해당 환상체와의 직접 접촉이 허가되었다.}
+      ]
+    </desc>
+
+    <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">통찰 작업의 결과가 좋음일 경우 작업 직원의 정신력이 일정량 회복되었다.</specialTip>
+      <specialTip openLevel="1" key="1">애착 작업의 결과가 좋음일 경우 작업 직원의 체력이 일정량 회복되었다.</specialTip>
+      <specialTip openLevel="2" key="2">작업 직원의 정신력이 30% 이하일 경우 큰 폭으로 체력과 정신력을 회복시켰다.</specialTip>
+      <specialTip openLevel="3" key="3">통찰 또는 애착 작업의 결과가 좋음일 때, 드물게 해당 환상체가 꽥꽥거렸다. 꽥꽥거림을 들은 직원의 체력과 정신력 모두가 소폭 회복되었다.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>
