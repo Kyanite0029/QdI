@@ -26,7 +26,7 @@
 
     <sprite>334281</sprite>
 
-    <require type="R">3</require>
+    <require type="B">3</require>
     <require type="level">4</require>
 
     <animation>Attack1</animation>
