@@ -54,7 +54,7 @@ namespace Qdi_MOD_Creatures
                 if (agent.hp <= agent.maxHp * 0.3f)
                 {
                     agent.RecoverHP(agent.maxHp*0.3f);
-                    agent.RecoverMental(agent.maxMental*0.3f);
+                    agent.RecoverMental(agent.maxMental*0.35f);
                 }
                 else
                 {
@@ -109,3 +109,4 @@ namespace Qdi_MOD_Creatures
         }
     }
 }
+//
